@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { useLocation } from "react-router-dom";
-import Footer from "../footer/Footer";
-import Navbar from "../navbar/Navbar";
-import RouteTour from "../../router/RouteTour";
 import { AuthContext } from "../../context/authContext";
+import RouteTour from "../../router/RouteTour";
+import Footer from "../footer/Footer";
 import AdminNavbar from "../navbar/AdminNavbar";
+import Navbar from "../navbar/Navbar";
 
 const Layout = () => {
   const { user } = useContext(AuthContext);

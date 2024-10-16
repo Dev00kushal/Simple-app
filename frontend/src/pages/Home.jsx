@@ -4,8 +4,9 @@ import React from "react";
 
 import Aboutus from "../components/aboutus/Aboutus";
 import Hero2 from "../components/hero2/Hero2";
-import Services from "../components/services/Services";
 import Hero3 from "../components/hero2/Hero3";
+import Services from "../components/services/Services";
+import Kunjan from "./ChatBot";
 
 const Home = () => {
   // const { user } = useContext(AuthContext);
@@ -16,6 +17,7 @@ const Home = () => {
       <Aboutus />
       <Services />
       <Hero3 />
+      <Kunjan />
     </div>
   );
 };
